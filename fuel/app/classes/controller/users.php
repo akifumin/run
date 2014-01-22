@@ -1,15 +1,9 @@
 <?php
-class Controller_Users extends Controller_Hybrid {
+class Controller_Users extends Controller_Index {
 
         public function action_index ()
         {
-                
-                //$result = DB::query('SELECT * FROM `users`')->execute();
-                //$result = DB::select('id', 'name', 'email')->from('users')->execute()->as_array();
-                
-                //  $view = );
-		//    $view->results = $result;
-                                $this->template->title = '一覧';
+                $this->template->title = '一覧';
                 $this->template->content = Response::forge(ViewModel::forge('users/index'));
         }
                         
@@ -17,24 +11,26 @@ class Controller_Users extends Controller_Hybrid {
         public function action_update ()
         {
 
-                $email = Input::post('email');
-                $name = Input::post('name');
-    
 
-                //    return $id." : ".$name;
+                $user_id = Input::post('user_id');
+                $user_name = Input::post('user_name');
+                $password = Input::post('password');
 
-                //    DB::insert('users')->columns(array('id', 'name'))->values(array($id, $name))-execute();
+                Log::debug('user_id:'.$user_id,' password:'.$password.' userName:'.$user_name);
+                
                 list($insert_id, $rows_affected) = DB::insert('users')->set(array(
-                                                                                    'email' => $email,
-                                                                                    'name' => $name))->execute();
+                                                                                    'user_id' => $user_id,
+                                                                                    'password' => $password,
+                                                                                    'user_name' => $user_name
+                                                                                    ))->execute();
                 $this->action_index();
         }
 
         public function action_delete () {
 
-                $id = Input::post('id');
+                $user_id = Input::post('user_id');
 
-                $result = DB::delete('users')->where('id', '=', $id)->execute();
+                $result = DB::delete('users')->where('user_id', '=', $user_id)->execute();
 
                 $this->action_index();
     

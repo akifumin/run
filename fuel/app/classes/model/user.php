@@ -3,24 +3,32 @@
 class Model_User extends Orm\Model
 {
 
-//        protected static $_table_name ='uesrs';
         protected static $_properties = array(
-                'id',
-                'name',
-                'email',
+                'user_id',
+                'user_name',
                 'password'
                 );
 
-        /*
-          protected static $_conditions = array(
-          'oreder_by' => array('id' => 'desc')
-          );
-        */         
+        protected static $_primary_key = array('user_id');
+                
+        public static function login ($user_id, $password)
+        {
 
-        /*
-          public static function get_results() {
+                if (empty($user_id) or empty($password))
+                {
+                        return false;
+                }
 
-          return \DB::select('id', 'name', 'email')->from('users')->execute()->as_array();
-          }
-        */
+                $user = self::find('first', array('where' => array(
+                                                          'user_id' => $user_id,
+                                                          'password' => $password
+                                                          )));
+                if ($user)
+                {
+                        return $user;
+                }
+
+                return false;
+        }
+        
 }
