@@ -1,0 +1,11 @@
+<?php
+class Controller_Users extends Controller {
+
+  public function action_index () {
+
+    //$result = DB::query('SELECT * FROM `users`')->execute();
+
+    $result = DB::select('id', 'name')->from('users')->execute();   
+  
+  }
+}
