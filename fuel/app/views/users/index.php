@@ -52,3 +52,10 @@
     <?= \Form::close()?>
 </div>
 
+
+<?php if(isset($val)): ?>
+  <pre>
+    <?php var_dump($val)?>
+  </pre>
+<?php endif?>
+

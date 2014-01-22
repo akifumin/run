@@ -3,6 +3,7 @@ class Controller_Users extends Controller_Index {
 
         public function action_index ()
         {
+
                 $this->template->title = '一覧';
                 $this->template->content = Response::forge(ViewModel::forge('users/index'));
         }
@@ -16,14 +17,37 @@ class Controller_Users extends Controller_Index {
                 $user_name = Input::post('user_name');
                 $password = Input::post('password');
 
-                Log::debug('user_id:'.$user_id,' password:'.$password.' userName:'.$user_name);
+                $val = Validation::forge();
+                $val->add('user_id', 'ユーザID')
+                        ->add_rule('required')
+                        ->add_rule('max_length', 20);
+
+                $val->add('user_name', 'ユーザ名')
+                        ->add_rule('required');
+                $val->add('password', 'パスワード')
+                        ->add_rule('required');
+                if($val->run())
+                {
+
+                        Log::debug('user_id:'.$user_id,' password:'.$password.' userName:'.$user_name);
                 
-                list($insert_id, $rows_affected) = DB::insert('users')->set(array(
-                                                                                    'user_id' => $user_id,
-                                                                                    'password' => $password,
-                                                                                    'user_name' => $user_name
-                                                                                    ))->execute();
+                        list($insert_id, $rows_affected) = DB::insert('users')->set(array(
+                                                                                            'user_id' => $user_id,
+                                                                                            'password' => $password,
+                                                                                            'user_name' => $user_name
+                                                                                            ))->execute();
+                }
+                else
+                {
+                        Log::debug('validationError::'. implode('; ', $val->error()));
+//                   Log::debug(var_dump($vuser_id));
+                }
+
                 $this->action_index();
+                
+//                $this->template->set_global('val', $val);
+                
+                
         }
 
         public function action_delete () {

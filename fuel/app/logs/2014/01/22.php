@@ -1137,3 +1137,719 @@ INFO - 2014-01-22 16:45:45 --> Fuel\Core\Request::execute - Called
 INFO - 2014-01-22 16:45:45 --> Fuel\Core\Request::execute - Setting main Request
 DEBUG - 2014-01-22 16:45:45 --> action:index param:
 DEBUG - 2014-01-22 16:45:45 --> sql:
+INFO - 2014-01-22 17:37:59 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:37:59 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:37:59 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:37:59 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 17:37:59 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:37:59 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:37:59 --> action:index param:
+DEBUG - 2014-01-22 17:37:59 --> sql:
+INFO - 2014-01-22 17:38:02 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+ERROR - 2014-01-22 17:38:02 --> Parsing Error - parse error in /Users/akifumin/Sites/canyon/run/fuel/app/classes/controller/users.php on line 37
+INFO - 2014-01-22 17:38:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 17:38:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:38:35 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:38:35 --> action:index param:
+DEBUG - 2014-01-22 17:38:35 --> sql:
+DEBUG - 2014-01-22 17:38:35 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:38:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:38:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:38:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:38:37 --> Notice - Invalid rule "require" passed to Validation, not used. in /Users/akifumin/Sites/canyon/run/fuel/core/classes/validation.php on line 471
+DEBUG - 2014-01-22 17:38:37 --> Notice - Invalid rule "max_lenght" passed to Validation, not used. in /Users/akifumin/Sites/canyon/run/fuel/core/classes/validation.php on line 471
+DEBUG - 2014-01-22 17:38:37 -->  password: userName: - user_id:
+DEBUG - 2014-01-22 17:38:37 --> action:update param:,,
+DEBUG - 2014-01-22 17:38:37 --> sql:INSERT INTO `users` (`user_id`, `password`, `user_name`) VALUES ('', '', '')
+DEBUG - 2014-01-22 17:38:37 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:39:42 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:39:42 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:39:42 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:39:42 --> validationErrorThe field ユーザID is required and must contain a value.
+DEBUG - 2014-01-22 17:39:42 --> action:update param:,,
+DEBUG - 2014-01-22 17:39:42 --> sql:
+DEBUG - 2014-01-22 17:39:43 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:41:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:41:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:41:11 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:41:11 --> Notice - Invalid rule "max_lenght" passed to Validation, not used. in /Users/akifumin/Sites/canyon/run/fuel/core/classes/validation.php on line 471
+DEBUG - 2014-01-22 17:41:11 --> validationErrorThe field  is required and must contain a value.The field  is required and must contain a value.
+DEBUG - 2014-01-22 17:41:11 --> action:update param:a,,
+DEBUG - 2014-01-22 17:41:11 --> sql:
+DEBUG - 2014-01-22 17:41:11 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:41:41 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:41:41 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:41:41 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:41:41 --> validationErrorThe field  is required and must contain a value.The field  is required and must contain a value.
+DEBUG - 2014-01-22 17:41:41 --> action:update param:a,,
+DEBUG - 2014-01-22 17:41:41 --> sql:
+DEBUG - 2014-01-22 17:41:41 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:42:22 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:42:22 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:42:22 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:42:22 --> validationError::The field ユーザID is required and must contain a value.;The field  is required and must contain a value.;The field  is required and must contain a value.
+DEBUG - 2014-01-22 17:42:22 --> action:update param:,,
+DEBUG - 2014-01-22 17:42:22 --> sql:
+DEBUG - 2014-01-22 17:42:22 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:42:40 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:42:40 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:42:40 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:42:40 --> validationError::The field ユーザID is required and must contain a value.; The field  is required and must contain a value.; The field  is required and must contain a value.
+DEBUG - 2014-01-22 17:42:40 --> action:update param:,,
+DEBUG - 2014-01-22 17:42:40 --> sql:
+DEBUG - 2014-01-22 17:42:40 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:43:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:43:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:43:23 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:43:23 --> validationError::The field ユーザID is required and must contain a value.; The field ユーザ名 is required and must contain a value.; The field パスワード is required and must contain a value.
+DEBUG - 2014-01-22 17:43:23 --> action:update param:,,
+DEBUG - 2014-01-22 17:43:23 --> sql:
+DEBUG - 2014-01-22 17:43:23 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:45:47 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:45:47 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:45:47 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:45:47 --> validationError::The field ユーザID is required and must contain a value.; The field ユーザ名 is required and must contain a value.; The field パスワード is required and must contain a value.
+DEBUG - 2014-01-22 17:45:47 --> action:update param:,,
+DEBUG - 2014-01-22 17:45:47 --> sql:
+DEBUG - 2014-01-22 17:45:47 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:47:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:47:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:47:28 --> Fuel\Core\Request::execute - Setting main Request
+ERROR - 2014-01-22 17:47:28 --> Parsing Error - parse error in /Users/akifumin/Sites/canyon/run/fuel/app/lang/ja/validation.php on line 3
+INFO - 2014-01-22 17:47:45 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:47:45 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:47:45 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:47:45 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:47:45 --> action:update param:,,
+DEBUG - 2014-01-22 17:47:45 --> sql:
+DEBUG - 2014-01-22 17:47:45 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:48:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:48:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:48:44 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:48:44 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:48:44 --> 
+DEBUG - 2014-01-22 17:48:44 --> action:update param:,,
+DEBUG - 2014-01-22 17:48:44 --> sql:
+DEBUG - 2014-01-22 17:48:44 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:51:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:51:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:51:03 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:51:03 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:51:03 --> action:update param:,,
+DEBUG - 2014-01-22 17:51:03 --> sql:
+ERROR - 2014-01-22 17:51:03 --> Error - Object class "Fuel\Core\Validation" could not be converted to string or sanitized as ArrayAccess. Whitelist it in security.whitelisted_classes in app/config/config.php to allow it to be passed unchecked. in /Users/akifumin/Sites/canyon/run/fuel/core/classes/security.php on line 283
+INFO - 2014-01-22 17:51:24 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:51:24 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:51:24 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:51:24 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:51:24 --> action:update param:,,
+DEBUG - 2014-01-22 17:51:24 --> sql:
+ERROR - 2014-01-22 17:51:24 --> Error - Object class "Fuel\Core\Validation" could not be converted to string or sanitized as ArrayAccess. Whitelist it in security.whitelisted_classes in app/config/config.php to allow it to be passed unchecked. in /Users/akifumin/Sites/canyon/run/fuel/core/classes/security.php on line 283
+INFO - 2014-01-22 17:51:41 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:51:41 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:51:41 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:51:41 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:51:41 --> action:update param:,,
+DEBUG - 2014-01-22 17:51:41 --> sql:
+DEBUG - 2014-01-22 17:51:41 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:52:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:52:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:52:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:52:37 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:52:37 --> action:update param:,,
+DEBUG - 2014-01-22 17:52:37 --> sql:
+ERROR - 2014-01-22 17:52:37 --> Error - Object class "Fuel\Core\Validation" could not be converted to string or sanitized as ArrayAccess. Whitelist it in security.whitelisted_classes in app/config/config.php to allow it to be passed unchecked. in /Users/akifumin/Sites/canyon/run/fuel/core/classes/security.php on line 283
+INFO - 2014-01-22 17:53:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:53:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:53:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:53:37 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:53:37 --> 
+DEBUG - 2014-01-22 17:53:37 --> action:update param:,,
+DEBUG - 2014-01-22 17:53:37 --> sql:
+DEBUG - 2014-01-22 17:53:37 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:54:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:54:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:54:15 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:54:15 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+ERROR - 2014-01-22 17:54:15 --> Notice - Undefined property: Fuel\Core\Validation::$user_id in /Users/akifumin/Sites/canyon/run/fuel/app/classes/controller/users.php on line 42
+INFO - 2014-01-22 17:56:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:56:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:56:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:56:37 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:56:37 --> action:update param:,,
+DEBUG - 2014-01-22 17:56:37 --> sql:
+DEBUG - 2014-01-22 17:56:37 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:56:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 17:56:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:56:44 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:56:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 17:56:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:56:44 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:56:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:56:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:56:44 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:56:44 --> action:login param:
+DEBUG - 2014-01-22 17:56:44 --> sql:
+INFO - 2014-01-22 17:58:30 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:58:30 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:30 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:30 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:30 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:30 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:30 --> action:login param:
+DEBUG - 2014-01-22 17:58:30 --> sql:
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:32 --> action:index param:
+DEBUG - 2014-01-22 17:58:32 --> sql:
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:32 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:32 --> action:login param:
+DEBUG - 2014-01-22 17:58:32 --> sql:
+INFO - 2014-01-22 17:58:33 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 17:58:33 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:33 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:33 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:33 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:33 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:33 --> action:login param:
+DEBUG - 2014-01-22 17:58:33 --> sql:
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:34 --> action:index param:
+DEBUG - 2014-01-22 17:58:34 --> sql:
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:34 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:34 --> action:login param:
+DEBUG - 2014-01-22 17:58:34 --> sql:
+INFO - 2014-01-22 17:58:36 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 17:58:36 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:36 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:36 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:36 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:36 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:36 --> action:login param:
+DEBUG - 2014-01-22 17:58:36 --> sql:
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:38 --> action:index param:
+DEBUG - 2014-01-22 17:58:38 --> sql:
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:38 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:38 --> action:login param:
+DEBUG - 2014-01-22 17:58:38 --> sql:
+INFO - 2014-01-22 17:58:59 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 17:58:59 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:59 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:58:59 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:58:59 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:58:59 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:58:59 --> action:login param:
+DEBUG - 2014-01-22 17:58:59 --> sql:
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:00 --> action:index param:
+DEBUG - 2014-01-22 17:59:00 --> sql:
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:00 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:59:01 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:01 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:01 --> action:login param:
+DEBUG - 2014-01-22 17:59:01 --> sql:
+INFO - 2014-01-22 17:59:02 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 17:59:02 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:02 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:02 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:59:02 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:02 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:02 --> action:login param:
+DEBUG - 2014-01-22 17:59:02 --> sql:
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:10 --> action:index param:
+DEBUG - 2014-01-22 17:59:10 --> sql:
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:10 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:10 --> action:login param:
+DEBUG - 2014-01-22 17:59:10 --> sql:
+INFO - 2014-01-22 17:59:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 17:59:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:14 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:59:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:14 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:14 --> action:login param:
+DEBUG - 2014-01-22 17:59:14 --> sql:
+INFO - 2014-01-22 17:59:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:59:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:18 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 17:59:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:18 --> action:index param:
+DEBUG - 2014-01-22 17:59:18 --> sql:
+INFO - 2014-01-22 17:59:19 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/logout"
+INFO - 2014-01-22 17:59:19 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:19 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:19 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:59:19 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:19 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:19 --> action:login param:
+DEBUG - 2014-01-22 17:59:19 --> sql:
+INFO - 2014-01-22 17:59:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 17:59:21 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:21 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 17:59:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 17:59:21 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:21 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:21 --> action:index param:
+DEBUG - 2014-01-22 17:59:21 --> sql:
+INFO - 2014-01-22 17:59:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 17:59:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:23 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:23 --> action:index param:
+DEBUG - 2014-01-22 17:59:23 --> sql:
+DEBUG - 2014-01-22 17:59:23 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:59:25 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:59:25 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:25 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:25 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:59:25 --> action:update param:,,
+DEBUG - 2014-01-22 17:59:25 --> sql:
+DEBUG - 2014-01-22 17:59:25 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 17:59:41 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 17:59:41 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 17:59:41 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 17:59:42 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 17:59:42 --> action:update param:,,
+DEBUG - 2014-01-22 17:59:42 --> sql:
+DEBUG - 2014-01-22 17:59:42 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+ERROR - 2014-01-22 17:59:42 --> Notice - Undefined variable: val in /Users/akifumin/Sites/canyon/run/fuel/app/views/users/index.php on line 56
+INFO - 2014-01-22 18:00:07 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:00:07 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:00:07 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:00:07 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:00:07 --> action:update param:,,
+DEBUG - 2014-01-22 18:00:07 --> sql:
+DEBUG - 2014-01-22 18:00:07 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:01:04 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:01:04 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:01:04 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:01:04 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:01:04 --> action:update param:,,
+DEBUG - 2014-01-22 18:01:04 --> sql:
+DEBUG - 2014-01-22 18:01:04 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:01:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:01:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:01:05 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:01:05 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:01:05 --> action:update param:,,
+DEBUG - 2014-01-22 18:01:05 --> sql:
+DEBUG - 2014-01-22 18:01:05 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:01:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:01:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:01:06 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:01:06 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:01:06 --> action:update param:,,
+DEBUG - 2014-01-22 18:01:06 --> sql:
+DEBUG - 2014-01-22 18:01:06 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:01:41 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:01:41 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:01:41 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:01:41 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:01:41 --> action:update param:,,
+DEBUG - 2014-01-22 18:01:41 --> sql:
+DEBUG - 2014-01-22 18:01:42 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:01:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:01:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:01:48 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:01:48 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:01:48 --> action:update param:,,
+DEBUG - 2014-01-22 18:01:48 --> sql:
+DEBUG - 2014-01-22 18:01:48 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:01:49 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:01:49 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:01:49 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:01:49 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:01:49 --> action:update param:,,
+DEBUG - 2014-01-22 18:01:49 --> sql:
+DEBUG - 2014-01-22 18:01:49 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:01:51 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:01:51 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:01:51 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:01:51 --> validationError::ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:01:51 --> action:update param:a,,
+DEBUG - 2014-01-22 18:01:51 --> sql:
+DEBUG - 2014-01-22 18:01:51 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:01:58 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:01:58 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:01:58 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:01:58 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:01:58 --> action:update param:,,
+DEBUG - 2014-01-22 18:01:58 --> sql:
+DEBUG - 2014-01-22 18:01:58 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:02:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:02:01 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:01 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:02:01 --> validationError::ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:02:01 --> action:update param:a,,
+DEBUG - 2014-01-22 18:02:01 --> sql:
+DEBUG - 2014-01-22 18:02:01 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:02:07 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:02:07 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:07 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:02:07 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:02:07 --> action:update param:,,
+DEBUG - 2014-01-22 18:02:07 --> sql:
+DEBUG - 2014-01-22 18:02:07 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:02:08 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:02:08 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:08 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:02:08 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:02:08 --> action:update param:,,
+DEBUG - 2014-01-22 18:02:08 --> sql:
+DEBUG - 2014-01-22 18:02:08 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:02:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/logout"
+INFO - 2014-01-22 18:02:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:10 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:02:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:02:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:10 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:02:10 --> action:login param:
+DEBUG - 2014-01-22 18:02:10 --> sql:
+INFO - 2014-01-22 18:02:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:02:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:11 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:02:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 18:02:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:11 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:02:11 --> action:index param:
+DEBUG - 2014-01-22 18:02:11 --> sql:
+INFO - 2014-01-22 18:02:13 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 18:02:13 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:13 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:02:13 --> action:index param:
+DEBUG - 2014-01-22 18:02:13 --> sql:
+DEBUG - 2014-01-22 18:02:13 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:02:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:02:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:28 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:02:28 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:02:28 --> action:update param:,,
+DEBUG - 2014-01-22 18:02:28 --> sql:
+DEBUG - 2014-01-22 18:02:28 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:02:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:02:29 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:29 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:02:29 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:02:29 --> action:update param:,,
+DEBUG - 2014-01-22 18:02:29 --> sql:
+DEBUG - 2014-01-22 18:02:29 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:02:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 18:02:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:32 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:02:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 18:02:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:32 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:02:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:02:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:02:32 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:02:32 --> action:login param:
+DEBUG - 2014-01-22 18:02:32 --> sql:
+INFO - 2014-01-22 18:05:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:05:01 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:01 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:01 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:01 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:01 --> action:login param:
+DEBUG - 2014-01-22 18:05:01 --> sql:
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:03 --> action:index param:
+DEBUG - 2014-01-22 18:05:03 --> sql:
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:03 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:03 --> action:login param:
+DEBUG - 2014-01-22 18:05:03 --> sql:
+INFO - 2014-01-22 18:05:04 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 18:05:04 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:04 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:05 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:05 --> action:login param:
+DEBUG - 2014-01-22 18:05:05 --> sql:
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:06 --> action:index param:
+DEBUG - 2014-01-22 18:05:06 --> sql:
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:06 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:06 --> action:login param:
+DEBUG - 2014-01-22 18:05:06 --> sql:
+INFO - 2014-01-22 18:05:08 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/logout"
+INFO - 2014-01-22 18:05:08 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:08 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:08 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:08 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:08 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:08 --> action:login param:
+DEBUG - 2014-01-22 18:05:08 --> sql:
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:09 --> action:index param:
+DEBUG - 2014-01-22 18:05:09 --> sql:
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:09 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:09 --> action:login param:
+DEBUG - 2014-01-22 18:05:09 --> sql:
+INFO - 2014-01-22 18:05:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 18:05:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:10 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:10 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:10 --> action:login param:
+DEBUG - 2014-01-22 18:05:10 --> sql:
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:12 --> action:index param:
+DEBUG - 2014-01-22 18:05:12 --> sql:
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:12 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:12 --> action:login param:
+DEBUG - 2014-01-22 18:05:12 --> sql:
+INFO - 2014-01-22 18:05:33 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 18:05:33 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:33 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:33 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:33 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:33 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:33 --> action:login param:
+DEBUG - 2014-01-22 18:05:33 --> sql:
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:34 --> action:index param:
+DEBUG - 2014-01-22 18:05:34 --> sql:
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:35 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:35 --> action:login param:
+DEBUG - 2014-01-22 18:05:35 --> sql:
+INFO - 2014-01-22 18:05:36 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/logout"
+INFO - 2014-01-22 18:05:36 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:36 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:36 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:36 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:36 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:36 --> action:login param:
+DEBUG - 2014-01-22 18:05:36 --> sql:
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:37 --> action:index param:
+DEBUG - 2014-01-22 18:05:37 --> sql:
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:37 --> action:login param:
+DEBUG - 2014-01-22 18:05:37 --> sql:
+INFO - 2014-01-22 18:05:39 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 18:05:39 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:39 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:39 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:39 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:39 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:39 --> action:login param:
+DEBUG - 2014-01-22 18:05:39 --> sql:
+INFO - 2014-01-22 18:05:43 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:43 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:43 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:43 --> action:login param:aki,ilikektma
+DEBUG - 2014-01-22 18:05:43 --> sql:SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0` WHERE `t0`.`user_id` = 'aki' AND `t0`.`password` = 'ilikektma' ORDER BY `t0`.`user_id` ASC LIMIT 1
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:44 --> action:index param:
+DEBUG - 2014-01-22 18:05:44 --> sql:
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:44 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:44 --> action:login param:
+DEBUG - 2014-01-22 18:05:44 --> sql:
+INFO - 2014-01-22 18:05:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-01-22 18:05:54 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:54 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:54 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:54 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:54 --> action:login param:
+DEBUG - 2014-01-22 18:05:54 --> sql:
+INFO - 2014-01-22 18:05:57 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 18:05:57 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:57 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 18:05:57 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 18:05:57 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:05:57 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:05:57 --> action:index param:
+DEBUG - 2014-01-22 18:05:57 --> sql:
+INFO - 2014-01-22 18:06:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 18:06:01 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:06:01 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:06:01 --> action:index param:
+DEBUG - 2014-01-22 18:06:01 --> sql:
+DEBUG - 2014-01-22 18:06:01 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:06:07 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:06:07 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:06:07 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:06:07 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:06:07 --> action:update param:,,
+DEBUG - 2014-01-22 18:06:07 --> sql:
+DEBUG - 2014-01-22 18:06:07 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:06:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:06:21 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:06:21 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:06:21 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:06:21 --> action:update param:,,
+DEBUG - 2014-01-22 18:06:21 --> sql:
+ERROR - 2014-01-22 18:06:21 --> Error - Object class "Fuel\Core\Validation" could not be converted to string or sanitized as ArrayAccess. Whitelist it in security.whitelisted_classes in app/config/config.php to allow it to be passed unchecked. in /Users/akifumin/Sites/canyon/run/fuel/core/classes/security.php on line 283
+INFO - 2014-01-22 18:06:43 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:06:43 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:06:43 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:06:43 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:06:43 --> action:update param:,,
+DEBUG - 2014-01-22 18:06:43 --> sql:
+DEBUG - 2014-01-22 18:06:43 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 18:06:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/update"
+INFO - 2014-01-22 18:06:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 18:06:44 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 18:06:44 --> validationError::ユーザID は入力必須項目です。; ユーザ名 は入力必須項目です。; パスワード は入力必須項目です。
+DEBUG - 2014-01-22 18:06:44 --> action:update param:,,
+DEBUG - 2014-01-22 18:06:44 --> sql:
+DEBUG - 2014-01-22 18:06:44 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
