@@ -1,9 +1,0 @@
-class Controller_Csrf extends Controller {
-
-  public function action_index {
-
-    return \Form::csrf();
-  }
-  
-
-}

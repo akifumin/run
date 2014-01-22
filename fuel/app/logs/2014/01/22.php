@@ -1115,3 +1115,25 @@ DEBUG - 2014-01-22 16:43:32 -->  password:ilikektm userName:ktm.lucky - user_id:
 DEBUG - 2014-01-22 16:43:32 --> action:update param:ktm,ktm.lucky,ilikektm
 DEBUG - 2014-01-22 16:43:32 --> sql:INSERT INTO `users` (`user_id`, `password`, `user_name`) VALUES ('ktm', 'ilikektm', 'ktm.lucky')
 DEBUG - 2014-01-22 16:43:32 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 16:45:39 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-22 16:45:39 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 16:45:39 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 16:45:39 --> action:delete param:ktm
+DEBUG - 2014-01-22 16:45:39 --> sql:DELETE FROM `users` WHERE `user_id` = 'ktm'
+DEBUG - 2014-01-22 16:45:39 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 16:45:43 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/logout"
+INFO - 2014-01-22 16:45:43 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 16:45:43 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 16:45:43 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 16:45:43 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 16:45:43 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 16:45:43 --> action:login param:
+DEBUG - 2014-01-22 16:45:43 --> sql:
+INFO - 2014-01-22 16:45:45 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 16:45:45 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 16:45:45 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 16:45:45 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 16:45:45 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 16:45:45 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 16:45:45 --> action:index param:
+DEBUG - 2014-01-22 16:45:45 --> sql:
