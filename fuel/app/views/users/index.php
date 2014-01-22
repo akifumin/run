@@ -1,5 +1,5 @@
-<pre><?php // var_dump($results) ?></pre>
-<div class="col-sm-10"></div>
+
+
 <table class="table table-striped">
   <tr>
     <th class="col-sm-1">user_id</th>

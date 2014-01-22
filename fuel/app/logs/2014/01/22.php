@@ -1853,3 +1853,122 @@ DEBUG - 2014-01-22 18:06:44 --> validationError::ユーザID は入力必須項�
 DEBUG - 2014-01-22 18:06:44 --> action:update param:,,
 DEBUG - 2014-01-22 18:06:44 --> sql:
 DEBUG - 2014-01-22 18:06:44 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 22:05:17 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-01-22 22:05:17 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:05:17 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:05:17 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:05:17 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:05:17 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:05:17 --> action:login param:
+DEBUG - 2014-01-22 22:05:17 --> sql:
+INFO - 2014-01-22 22:07:50 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:07:50 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:07:50 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:07:51 --> action:login param:aki,
+DEBUG - 2014-01-22 22:07:51 --> sql:
+INFO - 2014-01-22 22:07:58 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:07:58 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:07:58 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:07:58 --> action:login param:aki,aaaaa
+DEBUG - 2014-01-22 22:07:58 --> sql:SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0` WHERE `t0`.`user_id` = 'aki' AND `t0`.`password` = 'aaaaa' ORDER BY `t0`.`user_id` ASC LIMIT 1
+INFO - 2014-01-22 22:09:53 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:09:53 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:09:53 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:09:53 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 22:09:53 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:09:53 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:09:53 --> action:index param:
+DEBUG - 2014-01-22 22:09:53 --> sql:
+INFO - 2014-01-22 22:14:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 22:14:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:14:05 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:14:05 --> action:index param:
+DEBUG - 2014-01-22 22:14:05 --> sql:
+INFO - 2014-01-22 22:21:59 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 22:21:59 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:21:59 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:21:59 --> action:index param:
+DEBUG - 2014-01-22 22:21:59 --> sql:
+INFO - 2014-01-22 22:22:13 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index"
+INFO - 2014-01-22 22:22:13 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:22:13 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:22:13 --> action:index param:
+DEBUG - 2014-01-22 22:22:13 --> sql:
+INFO - 2014-01-22 22:22:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index"
+INFO - 2014-01-22 22:22:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:22:14 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:22:14 --> action:index param:
+DEBUG - 2014-01-22 22:22:14 --> sql:
+INFO - 2014-01-22 22:22:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index"
+INFO - 2014-01-22 22:22:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:22:15 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:22:15 --> action:index param:
+DEBUG - 2014-01-22 22:22:15 --> sql:
+INFO - 2014-01-22 22:22:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index"
+INFO - 2014-01-22 22:22:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:22:16 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:22:16 --> action:index param:
+DEBUG - 2014-01-22 22:22:16 --> sql:
+INFO - 2014-01-22 22:24:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index"
+INFO - 2014-01-22 22:24:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:24:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:24:18 --> action:index param:
+DEBUG - 2014-01-22 22:24:18 --> sql:
+INFO - 2014-01-22 22:26:45 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index"
+INFO - 2014-01-22 22:26:45 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:26:45 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:26:45 --> action:index param:
+DEBUG - 2014-01-22 22:26:45 --> sql:
+INFO - 2014-01-22 22:27:27 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index"
+INFO - 2014-01-22 22:27:27 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:27 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:27:27 --> action:index param:
+DEBUG - 2014-01-22 22:27:27 --> sql:
+INFO - 2014-01-22 22:27:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/users"
+INFO - 2014-01-22 22:27:29 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:29 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:27:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:27:29 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:29 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:27:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:27:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:35 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:27:35 --> action:index param:
+DEBUG - 2014-01-22 22:27:35 --> sql:
+DEBUG - 2014-01-22 22:27:35 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 22:27:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/users"
+INFO - 2014-01-22 22:27:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:44 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:27:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:27:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:44 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:27:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/users"
+INFO - 2014-01-22 22:27:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:48 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:27:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:27:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:48 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:27:50 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:27:50 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:50 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:27:50 --> action:index param:
+DEBUG - 2014-01-22 22:27:50 --> sql:
+DEBUG - 2014-01-22 22:27:50 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 22:27:51 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:27:51 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:27:51 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:27:51 --> action:index param:
+DEBUG - 2014-01-22 22:27:51 --> sql:
+DEBUG - 2014-01-22 22:27:51 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 22:28:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:28:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:28:14 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:28:14 --> action:index param:
+DEBUG - 2014-01-22 22:28:14 --> sql:
+DEBUG - 2014-01-22 22:28:14 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 22:29:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:29:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:29:00 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:29:00 --> action:index param:
+DEBUG - 2014-01-22 22:29:00 --> sql:
+DEBUG - 2014-01-22 22:29:00 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
