@@ -7,12 +7,24 @@ class Controller_Users extends Controller_Index {
                 $this->template->title = '一覧';
                 $this->template->content = Response::forge(ViewModel::forge('users/index'));
         }
-                        
-                        
-        public function action_update ()
+
+        public function action_new ()
         {
 
+                $this->template->title = '利用者新規作成';
+                $this->template->content = Response::forge(ViewModel::forge('users/new'));
+                
+        }
 
+        public function action_edit()
+        {
+                $this->template->title = '利用者編集';
+                $this->template->content = Response::forge(ViewModel::forge('users/edit'));
+        }
+
+        
+        public function action_update ()
+        {
                 $user_id = Input::post('user_id');
                 $user_name = Input::post('user_name');
                 $password = Input::post('password');

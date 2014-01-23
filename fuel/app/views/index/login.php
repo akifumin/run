@@ -76,7 +76,7 @@
         </div>
       <?php endif ?>
 
-      <?php echo Form::open(array('action' => 'index/login', 'class' => 'form-signin')); ?>
+      <?php echo Form::open(array('action' => 'index/login', 'class' => 'form-signin', 'method' => 'POST')); ?>
       <h2 class="form-signin-heading">ログインしてください</h2>
       <input type="text" name="user_id" class="form-control" placeholder="Uer ID" autofocus>
       <input type="password" name="password" class="form-control" placeholder="パスワード">
