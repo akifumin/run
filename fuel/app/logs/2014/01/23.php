@@ -4904,3 +4904,114 @@ INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Called
 INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Setting main Request
 DEBUG - 2014-01-23 18:02:18 --> sessionの確認: 404:Controller_Index
 DEBUG - 2014-01-23 18:02:18 --> user_id:
+INFO - 2014-01-23 21:44:52 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = ""
+INFO - 2014-01-23 21:44:52 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:44:52 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:44:52 --> sessionの確認: index:Controller_Index
+DEBUG - 2014-01-23 21:44:52 --> user_id:
+DEBUG - 2014-01-23 21:44:52 --> action:index param:
+INFO - 2014-01-23 21:44:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 21:44:54 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:44:54 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:44:54 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 21:44:54 --> user_id:
+DEBUG - 2014-01-23 21:44:54 --> action:index param:
+ERROR - 2014-01-23 21:44:54 --> Error - No MySQLi Connection in /Users/ktmadam/Sites/canyon/run/fuel/core/classes/database/mysqli/connection.php on line 135
+INFO - 2014-01-23 21:45:07 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 21:45:07 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:45:07 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:45:07 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 21:45:07 --> user_id:
+DEBUG - 2014-01-23 21:45:07 --> action:index param:
+DEBUG - 2014-01-23 21:45:07 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 21:45:07 --> user_id:aki
+INFO - 2014-01-23 21:45:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 21:45:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:45:35 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:45:35 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 21:45:35 --> user_id:
+DEBUG - 2014-01-23 21:45:35 --> action:new param:
+INFO - 2014-01-23 21:45:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 21:45:54 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:45:54 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:45:54 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 21:45:54 --> user_id:
+DEBUG - 2014-01-23 21:45:54 --> action:new param:ugati,ugachi,ugachi,submit
+INFO - 2014-01-23 21:45:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 21:45:54 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:45:54 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:45:54 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 21:45:54 --> user_id:
+DEBUG - 2014-01-23 21:45:54 --> action:index param:
+DEBUG - 2014-01-23 21:45:54 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 21:45:54 --> user_id:aki
+DEBUG - 2014-01-23 21:45:54 --> user_id:ugati
+INFO - 2014-01-23 21:46:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-23 21:46:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:16 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:16 --> sessionの確認: delete:Controller_Users
+DEBUG - 2014-01-23 21:46:16 --> user_id:
+DEBUG - 2014-01-23 21:46:16 --> action:delete param:ugati
+DEBUG - 2014-01-23 21:46:17 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 21:46:17 --> user_id:aki
+INFO - 2014-01-23 21:46:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 21:46:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:18 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 21:46:18 --> user_id:
+DEBUG - 2014-01-23 21:46:18 --> action:edit param:aki
+INFO - 2014-01-23 21:46:20 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 21:46:20 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:20 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:20 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 21:46:21 --> user_id:
+DEBUG - 2014-01-23 21:46:21 --> action:edit param:aki,aki.nishi,ilikektm,submit
+INFO - 2014-01-23 21:46:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 21:46:21 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:21 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:21 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 21:46:21 --> user_id:
+DEBUG - 2014-01-23 21:46:21 --> action:index param:
+DEBUG - 2014-01-23 21:46:21 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 21:46:21 --> user_id:aki
+INFO - 2014-01-23 21:46:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/logout"
+INFO - 2014-01-23 21:46:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:31 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:31 --> sessionの確認: logout:Controller_Index
+DEBUG - 2014-01-23 21:46:31 --> user_id:
+INFO - 2014-01-23 21:46:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-23 21:46:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:31 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:31 --> 1:GET
+DEBUG - 2014-01-23 21:46:31 --> 8
+DEBUG - 2014-01-23 21:46:31 --> action:login param:
+INFO - 2014-01-23 21:46:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-23 21:46:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:33 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:33 --> 1:POST
+DEBUG - 2014-01-23 21:46:33 --> 2
+DEBUG - 2014-01-23 21:46:33 --> 5
+DEBUG - 2014-01-23 21:46:33 --> 6
+DEBUG - 2014-01-23 21:46:33 --> login_user_id:aki
+INFO - 2014-01-23 21:46:33 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-23 21:46:33 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:33 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:33 --> sessionの確認: index:Controller_Index
+DEBUG - 2014-01-23 21:46:33 --> user_id:aki
+DEBUG - 2014-01-23 21:46:33 --> action:index param:
+INFO - 2014-01-23 21:46:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 21:46:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:35 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:35 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 21:46:35 --> user_id:aki
+DEBUG - 2014-01-23 21:46:35 --> action:index param:
+DEBUG - 2014-01-23 21:46:35 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 21:46:35 --> user_id:aki
+INFO - 2014-01-23 21:46:43 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 21:46:43 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 21:46:43 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 21:46:43 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 21:46:43 --> user_id:aki
+DEBUG - 2014-01-23 21:46:43 --> action:index param:
+DEBUG - 2014-01-23 21:46:43 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 21:46:43 --> user_id:aki

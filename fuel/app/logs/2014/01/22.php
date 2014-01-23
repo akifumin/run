@@ -1972,3 +1972,176 @@ INFO - 2014-01-22 22:29:00 --> Fuel\Core\Request::execute - Setting main Request
 DEBUG - 2014-01-22 22:29:00 --> action:index param:
 DEBUG - 2014-01-22 22:29:00 --> sql:
 DEBUG - 2014-01-22 22:29:00 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-22 22:31:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 22:31:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:31:37 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:31:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:31:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:31:37 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:31:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:31:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:31:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:31:37 --> action:login param:
+DEBUG - 2014-01-22 22:31:37 --> sql:
+INFO - 2014-01-22 22:34:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:34:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:15 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:15 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:15 --> action:login param:
+DEBUG - 2014-01-22 22:34:15 --> sql:
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:18 --> action:index param:
+DEBUG - 2014-01-22 22:34:18 --> sql:
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:18 --> action:login param:
+DEBUG - 2014-01-22 22:34:18 --> sql:
+INFO - 2014-01-22 22:34:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:34:21 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:21 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:21 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:21 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:21 --> action:login param:
+DEBUG - 2014-01-22 22:34:21 --> sql:
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:23 --> action:index param:
+DEBUG - 2014-01-22 22:34:23 --> sql:
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:23 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:23 --> action:login param:
+DEBUG - 2014-01-22 22:34:23 --> sql:
+INFO - 2014-01-22 22:34:24 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/logout"
+INFO - 2014-01-22 22:34:24 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:24 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:24 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:24 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:24 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:24 --> action:login param:
+DEBUG - 2014-01-22 22:34:24 --> sql:
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:26 --> action:index param:
+DEBUG - 2014-01-22 22:34:26 --> sql:
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:26 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:26 --> action:login param:
+DEBUG - 2014-01-22 22:34:26 --> sql:
+INFO - 2014-01-22 22:34:27 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:34:27 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:27 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:27 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:27 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:27 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:27 --> action:login param:
+DEBUG - 2014-01-22 22:34:27 --> sql:
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:28 --> action:index param:
+DEBUG - 2014-01-22 22:34:28 --> sql:
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:28 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:28 --> action:login param:
+DEBUG - 2014-01-22 22:34:28 --> sql:
+INFO - 2014-01-22 22:34:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:34:29 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:29 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:29 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:29 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:29 --> action:login param:
+DEBUG - 2014-01-22 22:34:29 --> sql:
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:31 --> action:index param:
+DEBUG - 2014-01-22 22:34:31 --> sql:
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:31 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:31 --> action:login param:
+DEBUG - 2014-01-22 22:34:31 --> sql:
+INFO - 2014-01-22 22:34:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-22 22:34:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:32 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:32 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:32 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:32 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:32 --> action:login param:
+DEBUG - 2014-01-22 22:34:32 --> sql:
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:34 --> action:index param:
+DEBUG - 2014-01-22 22:34:34 --> sql:
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-22 22:34:34 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-22 22:34:34 --> action:login param:
+DEBUG - 2014-01-22 22:34:34 --> sql:
