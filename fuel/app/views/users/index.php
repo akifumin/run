@@ -1,4 +1,24 @@
 <div class="row"><h4>User List</h4></div>
+
+<?php if(Session::get_flash('error')):?>
+  <div class="alert alert-danger">
+    <a class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
+    <span>
+      <?php echo Session::get_flash('message'); ?>
+    </span>
+  </div>
+<?php endif ?>
+
+<?php if(Session::get_flash('success')):?>
+  <div class="alert alert-success">
+    <a class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
+    <span>
+      <?php echo Session::get_flash('message'); ?>
+    </span>
+  </div>
+<?php endif ?>
+
+         
 <?php echo \Form::open(array('action' => 'users', 'role' => 'form', 'class' => 'form-inline well well-sm clearfix'))?>
 <div class="form-group">
   <?php echo \Form::input('user_name', '', array('id' => 'user_id', 'class' => 'form-control', 'placeholder' => 'UserName'))?>
@@ -29,13 +49,7 @@
         <td><?php echo $user->user_name ?></td>
         <td><?php echo $user->password ?></td>
         <td>
-          <a href="<?php echo Uri::create('/users/edit') ;?>" class="btn btn-success">edit</a>
-<!--            
-          <?= \Form::open(array('action' => 'users/edit'))?>
-          <?php echo \Form::hidden('user_id', $user['user_id']) ?>
-          <?= \Form::submit('', 'edit', array('class' => 'btn btn-success'))?>
-          <?= \Form::close()?>
--->
+          <a href="<?php echo Uri::create('/users/edit', array(), array('user_id' => $user->user_id)) ;?>" class="btn btn-success">edit</a>
         </td>
         <td>
           <?= \Form::open(array('action' => 'users/delete'))?>

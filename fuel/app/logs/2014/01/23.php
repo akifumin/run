@@ -4052,3 +4052,855 @@ INFO - 2014-01-23 16:34:49 --> Fuel\Core\Request::execute - Called
 INFO - 2014-01-23 16:34:49 --> Fuel\Core\Request::execute - Setting main Request
 DEBUG - 2014-01-23 16:34:49 --> sessionの確認: 404:Controller_Index
 DEBUG - 2014-01-23 16:34:49 --> user_id:
+INFO - 2014-01-23 17:14:39 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 17:14:39 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:14:39 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:14:39 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:14:39 --> user_id:
+DEBUG - 2014-01-23 17:14:39 --> action:index param:
+DEBUG - 2014-01-23 17:14:39 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:14:39 --> user_id:aki
+DEBUG - 2014-01-23 17:14:39 --> user_id:ktm
+INFO - 2014-01-23 17:14:39 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:14:39 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:14:39 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:14:39 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:14:39 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:14:39 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:14:39 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:14:40 --> user_id:
+INFO - 2014-01-23 17:14:41 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:14:41 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:14:41 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:14:41 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:14:41 --> user_id:
+DEBUG - 2014-01-23 17:14:41 --> action:edit param:
+ERROR - 2014-01-23 17:14:41 --> Notice - Undefined variable: filedSet in /Users/akifumin/Sites/canyon/run/fuel/app/views/users/edit.php on line 6
+INFO - 2014-01-23 17:15:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:15:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:15:00 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:15:00 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:15:00 --> user_id:
+DEBUG - 2014-01-23 17:15:00 --> action:edit param:
+INFO - 2014-01-23 17:15:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:15:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:15:00 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:15:00 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:15:00 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:15:00 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:15:00 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:15:00 --> user_id:
+INFO - 2014-01-23 17:16:52 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 17:16:52 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:16:52 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:16:52 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:16:52 --> user_id:
+DEBUG - 2014-01-23 17:16:52 --> action:index param:
+DEBUG - 2014-01-23 17:16:52 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:16:52 --> user_id:aki
+DEBUG - 2014-01-23 17:16:52 --> user_id:ktm
+INFO - 2014-01-23 17:16:52 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:16:52 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:16:52 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:16:52 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:16:52 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:16:52 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:16:52 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:16:52 --> user_id:
+INFO - 2014-01-23 17:16:53 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:16:53 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:16:53 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:16:53 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:16:53 --> user_id:
+ERROR - 2014-01-23 17:16:53 --> Parsing Error - parse error, expecting `')'' in /Users/akifumin/Sites/canyon/run/fuel/app/classes/view/users/new.php on line 21
+INFO - 2014-01-23 17:17:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:17:21 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:17:21 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:17:21 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:17:21 --> user_id:
+DEBUG - 2014-01-23 17:17:21 --> action:new param:
+INFO - 2014-01-23 17:17:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:17:21 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:17:21 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:17:21 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:17:21 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:17:21 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:17:21 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:17:21 --> user_id:
+INFO - 2014-01-23 17:18:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 17:18:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:18:35 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:18:35 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:18:35 --> user_id:
+DEBUG - 2014-01-23 17:18:35 --> action:index param:
+DEBUG - 2014-01-23 17:18:35 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:18:35 --> user_id:aki
+DEBUG - 2014-01-23 17:18:35 --> user_id:ktm
+INFO - 2014-01-23 17:18:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:18:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:18:35 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:18:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:18:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:18:35 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:18:35 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:18:35 --> user_id:
+INFO - 2014-01-23 17:18:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:18:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:18:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:18:37 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:18:37 --> user_id:
+DEBUG - 2014-01-23 17:18:37 --> action:edit param:
+INFO - 2014-01-23 17:18:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:18:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:18:37 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:18:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:18:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:18:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:18:37 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:18:37 --> user_id:
+INFO - 2014-01-23 17:27:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 17:27:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:31 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:27:31 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:27:31 --> user_id:
+DEBUG - 2014-01-23 17:27:31 --> action:index param:
+DEBUG - 2014-01-23 17:27:31 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:27:31 --> user_id:aki
+DEBUG - 2014-01-23 17:27:31 --> user_id:ktm
+INFO - 2014-01-23 17:27:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:27:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:31 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:27:31 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:27:31 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:31 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:27:31 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:27:31 --> user_id:
+INFO - 2014-01-23 17:27:40 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:27:40 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:40 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:27:40 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:27:40 --> user_id:
+DEBUG - 2014-01-23 17:27:40 --> action:edit param:aki
+INFO - 2014-01-23 17:27:41 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:27:41 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:41 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:27:41 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:27:41 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:41 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:27:41 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:27:41 --> user_id:
+INFO - 2014-01-23 17:27:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:27:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:44 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:27:44 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:27:44 --> user_id:
+DEBUG - 2014-01-23 17:27:44 --> action:edit param:ktm
+INFO - 2014-01-23 17:27:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:27:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:44 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:27:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:27:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:44 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:27:44 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:27:44 --> user_id:
+INFO - 2014-01-23 17:27:54 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:27:54 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:54 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:27:54 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:27:55 --> user_id:
+DEBUG - 2014-01-23 17:27:55 --> action:edit param:ktm,,,submit
+INFO - 2014-01-23 17:27:55 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:27:55 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:55 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:27:55 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:27:55 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:27:55 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:27:55 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:27:55 --> user_id:
+INFO - 2014-01-23 17:28:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:28:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:28:06 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:28:06 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:28:06 --> user_id:
+DEBUG - 2014-01-23 17:28:06 --> action:edit param:ktm,ktm.uppdate,ilikektmaaaaaaa,submit
+ERROR - 2014-01-23 17:28:06 --> Notice - Undefined variable: fiels in /Users/akifumin/Sites/canyon/run/fuel/app/classes/view/users/edit.php on line 49
+INFO - 2014-01-23 17:28:52 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:28:52 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:28:52 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:28:52 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:28:52 --> user_id:
+DEBUG - 2014-01-23 17:28:52 --> action:edit param:ktm,ktm.update,ilikektm,submit
+ERROR - 2014-01-23 17:28:52 --> Notice - Undefined variable: fiedls in /Users/akifumin/Sites/canyon/run/fuel/app/classes/view/users/edit.php on line 49
+INFO - 2014-01-23 17:29:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:29:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:29:10 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:29:10 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:29:10 --> user_id:
+DEBUG - 2014-01-23 17:29:10 --> action:edit param:ktm,ktm.asdfadfa,ilafdsfasdf,submit
+ERROR - 2014-01-23 17:29:10 --> Notice - Trying to get property of non-object in /Users/akifumin/Sites/canyon/run/fuel/app/classes/view/users/edit.php on line 49
+INFO - 2014-01-23 17:29:44 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:29:44 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:29:44 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:29:44 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:29:44 --> user_id:
+DEBUG - 2014-01-23 17:29:44 --> action:edit param:ktm,afsdf,fasdfdafsda,submit
+ERROR - 2014-01-23 17:29:44 --> Error - Primary key on model Model_User cannot be changed. in /Users/akifumin/Sites/canyon/run/fuel/packages/orm/classes/model.php on line 1187
+INFO - 2014-01-23 17:32:26 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:32:26 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:32:26 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:32:26 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:32:26 --> user_id:
+DEBUG - 2014-01-23 17:32:26 --> action:edit param:ktm,afsdf,fasdfdafsda,submit
+ERROR - 2014-01-23 17:32:26 --> Error - Primary key on model Model_User cannot be changed. in /Users/akifumin/Sites/canyon/run/fuel/packages/orm/classes/model.php on line 1187
+INFO - 2014-01-23 17:32:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 17:32:29 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:32:29 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:32:29 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:32:29 --> user_id:
+DEBUG - 2014-01-23 17:32:29 --> action:index param:
+DEBUG - 2014-01-23 17:32:29 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:32:29 --> user_id:aki
+DEBUG - 2014-01-23 17:32:29 --> user_id:ktm
+INFO - 2014-01-23 17:32:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:32:29 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:32:29 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:32:29 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:32:29 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:32:29 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:32:29 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:32:29 --> user_id:
+INFO - 2014-01-23 17:32:30 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:32:30 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:32:30 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:32:30 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:32:30 --> user_id:
+DEBUG - 2014-01-23 17:32:30 --> action:edit param:aki
+INFO - 2014-01-23 17:32:30 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:32:30 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:32:30 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:32:30 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:32:30 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:32:30 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:32:30 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:32:30 --> user_id:
+INFO - 2014-01-23 17:32:36 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:32:36 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:32:36 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:32:36 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:32:36 --> user_id:
+DEBUG - 2014-01-23 17:32:36 --> action:edit param:aki,aki.nishiaaa,ilikektm,submit
+ERROR - 2014-01-23 17:32:36 --> Error - Primary key on model Model_User cannot be changed. in /Users/akifumin/Sites/canyon/run/fuel/packages/orm/classes/model.php on line 1187
+INFO - 2014-01-23 17:33:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:33:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:33:06 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:33:06 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:33:06 --> user_id:
+DEBUG - 2014-01-23 17:33:06 --> action:edit param:aki,aki.nishiaaa,ilikektm,submit
+ERROR - 2014-01-23 17:33:06 --> Notice - Undefined index: user_id in /Users/akifumin/Sites/canyon/run/fuel/app/classes/view/users/edit.php on line 50
+INFO - 2014-01-23 17:33:55 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:33:55 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:33:55 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:33:55 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:33:55 --> user_id:
+DEBUG - 2014-01-23 17:33:55 --> action:edit param:aki,aki.nishiaaa,ilikektm,submit
+INFO - 2014-01-23 17:33:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 17:33:56 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:33:56 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:33:56 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:33:56 --> user_id:
+DEBUG - 2014-01-23 17:33:56 --> action:index param:
+DEBUG - 2014-01-23 17:33:56 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:33:56 --> user_id:aki
+DEBUG - 2014-01-23 17:33:56 --> user_id:ktm
+INFO - 2014-01-23 17:33:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:33:56 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:33:56 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:33:56 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:33:56 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:33:56 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:33:56 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:33:56 --> user_id:
+INFO - 2014-01-23 17:34:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:34:01 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:01 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:01 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:34:01 --> user_id:
+DEBUG - 2014-01-23 17:34:01 --> action:edit param:aki
+INFO - 2014-01-23 17:34:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:34:01 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:01 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:34:01 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:34:01 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:01 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:01 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:34:01 --> user_id:
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:12 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:34:12 --> user_id:
+DEBUG - 2014-01-23 17:34:12 --> action:edit param:aki,aki.nishi update,ilikektm,submit
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:12 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:34:12 --> user_id:
+DEBUG - 2014-01-23 17:34:12 --> action:index param:
+DEBUG - 2014-01-23 17:34:12 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:34:12 --> user_id:aki
+DEBUG - 2014-01-23 17:34:12 --> user_id:ktm
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:12 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:12 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:34:12 --> user_id:
+INFO - 2014-01-23 17:34:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:34:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:15 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:15 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:34:15 --> user_id:
+DEBUG - 2014-01-23 17:34:15 --> action:edit param:ktm
+INFO - 2014-01-23 17:34:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:34:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:16 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:34:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:34:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:16 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:16 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:34:16 --> user_id:
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:22 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:34:22 --> user_id:
+DEBUG - 2014-01-23 17:34:22 --> action:edit param:ktm,ktm.aki,aaaaaaaaaaaaaaaaaaaaaa,submit
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:22 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:34:22 --> user_id:
+DEBUG - 2014-01-23 17:34:22 --> action:index param:
+DEBUG - 2014-01-23 17:34:22 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:34:22 --> user_id:aki
+DEBUG - 2014-01-23 17:34:22 --> user_id:ktm
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:34:22 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:34:22 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:34:22 --> user_id:
+INFO - 2014-01-23 17:37:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:37:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:37:35 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:37:35 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:37:35 --> user_id:
+DEBUG - 2014-01-23 17:37:35 --> action:edit param:ktm
+INFO - 2014-01-23 17:37:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:37:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:37:35 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:37:35 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:37:35 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:37:35 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:37:35 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:37:35 --> user_id:
+INFO - 2014-01-23 17:37:38 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-23 17:37:38 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:37:38 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:37:38 --> sessionの確認: delete:Controller_Users
+DEBUG - 2014-01-23 17:37:38 --> user_id:
+DEBUG - 2014-01-23 17:37:38 --> action:delete param:ktm
+DEBUG - 2014-01-23 17:37:38 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:37:38 --> user_id:aki
+DEBUG - 2014-01-23 17:37:38 --> user_id:ktm
+INFO - 2014-01-23 17:37:39 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:37:39 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:37:39 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:37:39 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:37:39 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:37:39 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:37:39 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:37:39 --> user_id:
+INFO - 2014-01-23 17:37:40 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-23 17:37:40 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:37:40 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:37:40 --> sessionの確認: delete:Controller_Users
+DEBUG - 2014-01-23 17:37:40 --> user_id:
+DEBUG - 2014-01-23 17:37:40 --> action:delete param:ktm
+DEBUG - 2014-01-23 17:37:40 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:37:40 --> user_id:aki
+DEBUG - 2014-01-23 17:37:40 --> user_id:ktm
+INFO - 2014-01-23 17:37:40 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:37:40 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:37:40 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:37:40 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:37:40 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:37:40 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:37:40 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:37:40 --> user_id:
+INFO - 2014-01-23 17:40:33 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-23 17:40:33 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:40:33 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:40:33 --> sessionの確認: delete:Controller_Users
+DEBUG - 2014-01-23 17:40:33 --> user_id:
+ERROR - 2014-01-23 17:40:33 --> Error - View variable is not set: content in /Users/akifumin/Sites/canyon/run/fuel/core/classes/view.php on line 430
+INFO - 2014-01-23 17:41:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-23 17:41:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:10 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:41:10 --> sessionの確認: delete:Controller_Users
+DEBUG - 2014-01-23 17:41:10 --> user_id:
+DEBUG - 2014-01-23 17:41:10 --> action:delete param:ktm
+DEBUG - 2014-01-23 17:41:10 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+INFO - 2014-01-23 17:41:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:41:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:10 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:41:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:41:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:10 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:41:10 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:41:10 --> user_id:
+INFO - 2014-01-23 17:41:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:41:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:14 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:41:14 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:41:14 --> user_id:
+DEBUG - 2014-01-23 17:41:14 --> action:new param:
+INFO - 2014-01-23 17:41:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:41:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:14 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:41:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:41:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:14 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:41:14 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:41:14 --> user_id:
+INFO - 2014-01-23 17:41:22 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:41:22 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:22 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:41:22 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:41:22 --> user_id:
+DEBUG - 2014-01-23 17:41:22 --> action:new param:aki,aki nishi,ilikektm,submit
+INFO - 2014-01-23 17:41:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 17:41:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:23 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:41:23 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:41:23 --> user_id:
+DEBUG - 2014-01-23 17:41:23 --> action:index param:
+DEBUG - 2014-01-23 17:41:23 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:41:23 --> user_id:aki
+INFO - 2014-01-23 17:41:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:41:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:23 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:41:23 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:41:23 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:41:23 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:41:23 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:41:23 --> user_id:
+INFO - 2014-01-23 17:45:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 17:45:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:45:05 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:45:05 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:45:05 --> user_id:
+DEBUG - 2014-01-23 17:45:05 --> action:index param:
+DEBUG - 2014-01-23 17:45:05 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:45:05 --> user_id:aki
+INFO - 2014-01-23 17:45:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:45:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:45:05 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:45:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:45:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:45:05 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:45:05 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:45:05 --> user_id:
+INFO - 2014-01-23 17:47:09 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:47:09 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:09 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:47:09 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:47:09 --> user_id:
+DEBUG - 2014-01-23 17:47:09 --> action:new param:
+INFO - 2014-01-23 17:47:09 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:47:09 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:09 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:47:09 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:47:09 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:09 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:47:09 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:47:09 --> user_id:
+INFO - 2014-01-23 17:47:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:47:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:15 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:47:15 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:47:15 --> user_id:
+DEBUG - 2014-01-23 17:47:15 --> action:new param:afsdf,asdfas,fasdf,submit
+INFO - 2014-01-23 17:47:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 17:47:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:15 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:47:15 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:47:15 --> user_id:
+DEBUG - 2014-01-23 17:47:15 --> action:index param:
+DEBUG - 2014-01-23 17:47:15 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:47:15 --> user_id:afsdf
+DEBUG - 2014-01-23 17:47:15 --> user_id:aki
+INFO - 2014-01-23 17:47:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:47:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:16 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:47:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:47:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:16 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:47:16 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:47:16 --> user_id:
+INFO - 2014-01-23 17:47:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-23 17:47:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:48 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:47:48 --> sessionの確認: delete:Controller_Users
+DEBUG - 2014-01-23 17:47:48 --> user_id:
+DEBUG - 2014-01-23 17:47:48 --> action:delete param:aki
+DEBUG - 2014-01-23 17:47:48 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:47:48 --> user_id:afsdf
+INFO - 2014-01-23 17:47:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:47:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:48 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:47:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:47:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:47:48 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:47:48 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:47:48 --> user_id:
+INFO - 2014-01-23 17:53:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:53:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:53:11 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:53:11 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:53:11 --> user_id:
+DEBUG - 2014-01-23 17:53:11 --> action:new param:
+INFO - 2014-01-23 17:53:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:53:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:53:11 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:53:11 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:53:11 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:53:11 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:53:11 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:53:11 --> user_id:
+INFO - 2014-01-23 17:53:14 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:53:14 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:53:14 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:53:14 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:53:14 --> user_id:
+DEBUG - 2014-01-23 17:53:14 --> action:new param:asdf,afsd,asdf,submit
+ERROR - 2014-01-23 17:53:14 --> Fatal Error - Call to undefined method Fuel\Core\Session_Cookie::flash() in /Users/akifumin/Sites/canyon/run/fuel/app/classes/view/users/new.php on line 55
+INFO - 2014-01-23 17:53:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:53:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:53:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:53:37 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:53:37 --> user_id:
+DEBUG - 2014-01-23 17:53:37 --> action:new param:asdf,afsd,asdf,submit
+ERROR - 2014-01-23 17:53:37 --> 1062 - Duplicate entry 'asdf' for key 'PRIMARY' [ INSERT INTO `users` (`user_id`, `user_name`, `password`) VALUES ('asdf', 'afsd', 'asdf') ] in /Users/akifumin/Sites/canyon/run/fuel/core/classes/database/mysqli/connection.php on line 270
+INFO - 2014-01-23 17:53:46 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:53:46 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:53:46 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:53:46 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:53:46 --> user_id:
+DEBUG - 2014-01-23 17:53:46 --> action:new param:asfas,fasdfa,asdf,submit
+INFO - 2014-01-23 17:53:46 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 17:53:46 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:53:46 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:53:46 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:53:47 --> user_id:
+DEBUG - 2014-01-23 17:53:47 --> action:index param:
+DEBUG - 2014-01-23 17:53:47 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:53:47 --> user_id:afsdf
+DEBUG - 2014-01-23 17:53:47 --> user_id:asdf
+DEBUG - 2014-01-23 17:53:47 --> user_id:asfas
+INFO - 2014-01-23 17:53:47 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:53:47 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:53:47 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:53:47 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:53:47 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:53:47 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:53:47 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:53:47 --> user_id:
+INFO - 2014-01-23 17:56:12 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-23 17:56:12 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:56:12 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:56:12 --> sessionの確認: delete:Controller_Users
+DEBUG - 2014-01-23 17:56:12 --> user_id:
+ERROR - 2014-01-23 17:56:12 --> Fatal Error - Call to a member function set_flash() on a non-object in /Users/akifumin/Sites/canyon/run/fuel/app/classes/controller/users.php on line 37
+INFO - 2014-01-23 17:57:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/logout"
+INFO - 2014-01-23 17:57:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:15 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:15 --> sessionの確認: logout:Controller_Index
+DEBUG - 2014-01-23 17:57:15 --> user_id:
+INFO - 2014-01-23 17:57:15 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-23 17:57:15 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:15 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:15 --> 1:GET
+DEBUG - 2014-01-23 17:57:15 --> 8
+DEBUG - 2014-01-23 17:57:15 --> action:login param:
+INFO - 2014-01-23 17:57:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-23 17:57:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:16 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:16 --> 1:POST
+DEBUG - 2014-01-23 17:57:16 --> 2
+DEBUG - 2014-01-23 17:57:16 --> 5
+DEBUG - 2014-01-23 17:57:16 --> 7
+DEBUG - 2014-01-23 17:57:16 --> 8
+DEBUG - 2014-01-23 17:57:16 --> action:login param:aki,ilikektm
+INFO - 2014-01-23 17:57:20 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-23 17:57:20 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:20 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:20 --> 1:POST
+DEBUG - 2014-01-23 17:57:20 --> 2
+DEBUG - 2014-01-23 17:57:20 --> 5
+DEBUG - 2014-01-23 17:57:20 --> 7
+DEBUG - 2014-01-23 17:57:20 --> 8
+DEBUG - 2014-01-23 17:57:20 --> action:login param:aki,ilikektm
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/login"
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:48 --> 1:POST
+DEBUG - 2014-01-23 17:57:48 --> 2
+DEBUG - 2014-01-23 17:57:48 --> 5
+DEBUG - 2014-01-23 17:57:48 --> 6
+DEBUG - 2014-01-23 17:57:48 --> login_user_id:asdf
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/index"
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:48 --> sessionの確認: index:Controller_Index
+DEBUG - 2014-01-23 17:57:48 --> user_id:asdf
+DEBUG - 2014-01-23 17:57:48 --> action:index param:
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:48 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:48 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:57:48 --> user_id:
+INFO - 2014-01-23 17:57:50 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 17:57:50 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:50 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:50 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:57:50 --> user_id:
+DEBUG - 2014-01-23 17:57:50 --> action:index param:
+DEBUG - 2014-01-23 17:57:51 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:57:51 --> user_id:afsdf
+DEBUG - 2014-01-23 17:57:51 --> user_id:asdf
+INFO - 2014-01-23 17:57:51 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:57:51 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:51 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:57:51 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:57:51 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:51 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:51 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:57:51 --> user_id:
+INFO - 2014-01-23 17:57:53 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:57:53 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:53 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:53 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:57:53 --> user_id:
+DEBUG - 2014-01-23 17:57:53 --> action:new param:
+INFO - 2014-01-23 17:57:53 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:57:53 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:53 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:57:53 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:57:53 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:57:53 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:57:53 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:57:54 --> user_id:
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/new"
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:58:02 --> sessionの確認: new:Controller_Users
+DEBUG - 2014-01-23 17:58:02 --> user_id:
+DEBUG - 2014-01-23 17:58:02 --> action:new param:aki,aki nishi,ilikektm,submit
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:58:02 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:58:02 --> user_id:
+DEBUG - 2014-01-23 17:58:02 --> action:index param:
+DEBUG - 2014-01-23 17:58:02 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:58:02 --> user_id:afsdf
+DEBUG - 2014-01-23 17:58:02 --> user_id:aki
+DEBUG - 2014-01-23 17:58:02 --> user_id:asdf
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:02 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:58:02 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:58:02 --> user_id:
+INFO - 2014-01-23 17:58:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:58:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:06 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:58:06 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:58:06 --> user_id:
+DEBUG - 2014-01-23 17:58:06 --> action:edit param:asdf
+INFO - 2014-01-23 17:58:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:58:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:06 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:58:06 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:58:06 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:06 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:58:06 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:58:06 --> user_id:
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:58:08 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 17:58:08 --> user_id:
+DEBUG - 2014-01-23 17:58:08 --> action:edit param:asdf,afsd,asdf,submit
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:58:08 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:58:08 --> user_id:
+DEBUG - 2014-01-23 17:58:08 --> action:index param:
+DEBUG - 2014-01-23 17:58:08 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:58:08 --> user_id:afsdf
+DEBUG - 2014-01-23 17:58:08 --> user_id:aki
+DEBUG - 2014-01-23 17:58:08 --> user_id:asdf
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:08 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:58:08 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:58:08 --> user_id:
+INFO - 2014-01-23 17:58:10 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-23 17:58:10 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:58:10 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:58:10 --> sessionの確認: delete:Controller_Users
+DEBUG - 2014-01-23 17:58:10 --> user_id:
+ERROR - 2014-01-23 17:58:10 --> Fatal Error - Call to a member function set_flash() on a non-object in /Users/akifumin/Sites/canyon/run/fuel/app/classes/controller/users.php on line 37
+INFO - 2014-01-23 17:59:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 17:59:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:59:16 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:59:16 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 17:59:16 --> user_id:
+DEBUG - 2014-01-23 17:59:16 --> action:index param:,search
+DEBUG - 2014-01-23 17:59:16 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:59:16 --> user_id:afsdf
+DEBUG - 2014-01-23 17:59:16 --> user_id:aki
+INFO - 2014-01-23 17:59:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:59:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:59:16 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:59:16 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:59:16 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:59:16 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:59:16 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:59:16 --> user_id:
+INFO - 2014-01-23 17:59:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/delete"
+INFO - 2014-01-23 17:59:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:59:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:59:18 --> sessionの確認: delete:Controller_Users
+DEBUG - 2014-01-23 17:59:18 --> user_id:
+DEBUG - 2014-01-23 17:59:18 --> action:delete param:afsdf
+DEBUG - 2014-01-23 17:59:18 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 17:59:18 --> user_id:aki
+INFO - 2014-01-23 17:59:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 17:59:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:59:18 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 17:59:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 17:59:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 17:59:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 17:59:18 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 17:59:18 --> user_id:
+INFO - 2014-01-23 18:01:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users"
+INFO - 2014-01-23 18:01:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:01:34 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:01:34 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 18:01:34 --> user_id:
+DEBUG - 2014-01-23 18:01:34 --> action:index param:,search
+DEBUG - 2014-01-23 18:01:34 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 18:01:34 --> user_id:aki
+INFO - 2014-01-23 18:01:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 18:01:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:01:34 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 18:01:34 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 18:01:34 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:01:34 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:01:34 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 18:01:34 --> user_id:
+INFO - 2014-01-23 18:01:36 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 18:01:36 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:01:36 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:01:36 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 18:01:36 --> user_id:
+DEBUG - 2014-01-23 18:01:36 --> action:edit param:aki
+INFO - 2014-01-23 18:01:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 18:01:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:01:37 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 18:01:37 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 18:01:37 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:01:37 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:01:37 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 18:01:37 --> user_id:
+INFO - 2014-01-23 18:01:48 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 18:01:48 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:01:48 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:01:48 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 18:01:48 --> user_id:
+DEBUG - 2014-01-23 18:01:48 --> action:edit param:aki,aki nishi ♡,ilikektm,submit
+ERROR - 2014-01-23 18:01:48 --> 1366 - Incorrect string value: '\xE2\x99\xA1' for column 'user_name' at row 1 [ UPDATE `users` SET `user_name` = 'aki nishi ♡' WHERE `user_id` = 'aki' ] in /Users/akifumin/Sites/canyon/run/fuel/core/classes/database/mysqli/connection.php on line 270
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:02:05 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 18:02:05 --> user_id:
+DEBUG - 2014-01-23 18:02:05 --> action:edit param:aki,akifumi nishimura,ilikektm,submit
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:02:05 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 18:02:05 --> user_id:
+DEBUG - 2014-01-23 18:02:05 --> action:index param:
+DEBUG - 2014-01-23 18:02:05 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 18:02:05 --> user_id:aki
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:05 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:02:05 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 18:02:05 --> user_id:
+INFO - 2014-01-23 18:02:17 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 18:02:17 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:17 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:02:17 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 18:02:17 --> user_id:
+DEBUG - 2014-01-23 18:02:17 --> action:edit param:aki
+INFO - 2014-01-23 18:02:17 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 18:02:17 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:17 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 18:02:17 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 18:02:17 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:17 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:02:17 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 18:02:17 --> user_id:
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/edit"
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:02:18 --> sessionの確認: edit:Controller_Users
+DEBUG - 2014-01-23 18:02:18 --> user_id:
+DEBUG - 2014-01-23 18:02:18 --> action:edit param:aki,akifumi nishimura,ilikektm,submit
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "users/index"
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:02:18 --> sessionの確認: index:Controller_Users
+DEBUG - 2014-01-23 18:02:18 --> user_id:
+DEBUG - 2014-01-23 18:02:18 --> action:index param:
+DEBUG - 2014-01-23 18:02:18 --> SQL:【SELECT `t0`.`user_id` AS `t0_c0`, `t0`.`user_name` AS `t0_c1`, `t0`.`password` AS `t0_c2` FROM `users` AS `t0`】
+DEBUG - 2014-01-23 18:02:18 --> user_id:aki
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "assets/bootstrap/js/jquery-1.10.2.min"
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Setting main Request
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::__construct - Creating a new main Request with URI = "index/404"
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Called
+INFO - 2014-01-23 18:02:18 --> Fuel\Core\Request::execute - Setting main Request
+DEBUG - 2014-01-23 18:02:18 --> sessionの確認: 404:Controller_Index
+DEBUG - 2014-01-23 18:02:18 --> user_id:
