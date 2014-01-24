@@ -19,11 +19,11 @@
 <?php endif ?>
 
          
-<?php echo \Form::open(array('action' => 'users', 'role' => 'form', 'class' => 'form-inline well well-sm clearfix'))?>
+<?php echo \Form::open(array('action' => 'users', 'method' => 'Get',  'role' => 'form', 'class' => 'form-inline well well-sm clearfix'))?>
 <div class="form-group">
-  <?php echo \Form::input('user_name', '', array('id' => 'user_id', 'class' => 'form-control', 'placeholder' => 'UserName'))?>
+  <?php echo \Form::input('user_name', $user_name, array('id' => 'user_id', 'class' => 'form-control', 'placeholder' => 'UserName'))?>
 </div>
-<?php echo \Form::submit('search', 'search', array('class' => 'btn btn-info'));?>
+<?php echo \Form::submit('', 'search', array('class' => 'btn btn-info'));?>
 <?php echo \Form::close()?>
 
 <div>
@@ -31,7 +31,7 @@
 </div>
 
 <div class="row">
-  <div class="col-sm-10"><?php echo $all_count ?>:items</div>
+  <div class="col-sm-12"><?php echo $total_items ?>:items</div>
 </div>
 
 <table class="table table-striped">
@@ -66,6 +66,10 @@
       </tr>
   <?php }?>
 </table>
+
+<?php echo $pager ?>
+
+
 </div>
 
 

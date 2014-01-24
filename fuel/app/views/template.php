@@ -48,6 +48,7 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+            <li><a><?php echo $user_name ?></a></li>
             <li class="active"><a href="<?php echo Uri::create('/index/logout');?>">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->

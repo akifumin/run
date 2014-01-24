@@ -9,7 +9,10 @@ class Controller_Index extends Controller_Hybrid {
                 // アクション名を取得
                 $request_action = Request::active()->action;
                 $request_controller = Request::active()->controller;
-                if ($request_action != 'login')
+                if ($request_action != 'login' and
+                    $request_action != '404' and
+                    $request_action != 'logout'
+                        )
                 {
                         // セッションの
                         Log::debug('sessionの確認: '.$request_action.':'.$request_controller);
@@ -27,6 +30,7 @@ class Controller_Index extends Controller_Hybrid {
 
                         if(is_object($this->template))
                         {
+                                Log::debug('index::user_name:'.$session->get('user_name'));
                                 $this->template->user_name = $session->get('user_name');
                         }
                 }
@@ -43,6 +47,14 @@ class Controller_Index extends Controller_Hybrid {
 //                Log::debug('sql:'. DB::last_query());
                 return $response;
                 
+        }
+
+        public function action_404()
+        {
+
+                Log::debug('404!!!!!!!');
+                $this->template->title = '404';
+                $this->template->content = Response::forge(ViewModel::forge('index/404'));
         }
 
 
@@ -81,6 +93,8 @@ class Controller_Index extends Controller_Hybrid {
                                         Log::debug('6');
                                         $session = Session::instance();
                                         $session->set('user_id', $user->user_id);
+                                        $session->set('user_name', $user->user_name);
+                                        
                                         Log::debug('login_user_id:'.$session->get('user_id'));
                                         return Response::redirect('index/index');
                                         
