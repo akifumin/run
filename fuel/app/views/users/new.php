@@ -1,4 +1,6 @@
-<div><h4>User New!!</h4></div>
+<div>
+  <h4>User New!!</h4>
+</div>
 
 <!--
 <div class="col-sm-3">

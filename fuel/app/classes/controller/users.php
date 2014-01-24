@@ -35,14 +35,14 @@ class Controller_Users extends Controller_Index {
 
                         $session = Session::instance();
                         $session->set_flash('success', true);
-                        $session->set_flash('message', "新規追加しました");
+                        $session->set_flash('message', "削除しました");
                 }
                 else
                 {
-                        $sessoin = Session::instance();
-                        $sessoin->set_flash('error', true);
-                        $session->set_flash('message', '削除しました');
-
+                        $session = Session::instance();
+                        $session->set_flash('error', true);
+                        $session->set_flash('message', "削除に失敗しました");
+                        
                 }
         }
  

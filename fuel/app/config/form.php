@@ -8,8 +8,8 @@ return array(
 	'group_label'	             => '<span>{label}</span>',
 	'required_mark'              => '*',
 	'inline_errors'              => true,
-	'error_class'                => 'has-error',
         //	'label_class'                => 'control-label',
+	'error_class'                => 'has-error',
 
 	// tabular form definitions
 	'tabular_form_template'      => "<table>{fields}</table>\n",
